@@ -54,3 +54,4 @@ Tekst
 #     wielolinijkowy"
 
 print("Witaj {}".format(imie))  # Witaj Radek
+print(imie.center(40))  # "                 Radek                  "
