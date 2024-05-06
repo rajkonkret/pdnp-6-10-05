@@ -85,9 +85,48 @@ print(id(lista_copy))
 # 1690932328320
 
 liczby = [54, 999, 34, 22, 12.34, 687]
+# liczby = [54, 999, 34, 22, 12.34, 687, "A"]  # TypeError: '<' not supported between instances of 'str' and 'int'
 print(type(liczby))  # <class 'list'>
 
 print(liczby)  # [54, 999, 34, 22, 12.34, 687]
 liczby.sort()
 print(liczby)  # [12.34, 22, 34, 54, 687, 999] - zmienia bazową kolekcję
 print(liczby.sort())  # None
+
+lista_osoby = ['radek', 'ola', 'agata', 'lena']
+lista_osoby.sort()
+print(lista_osoby)  # ['agata', 'lena', 'ola', 'radek']
+lista_osoby.sort(reverse=True)  # sortuje i odwraca kolejność
+print(lista_osoby)  # ['radek', 'ola', 'lena', 'agata']
+
+liczby.reverse()  # odwrócenie listy
+print(liczby)  # [999, 687, 54, 34, 22, 12.34]
+
+liczby[3] = 6666
+print(liczby[0:3])
+print(liczby[-2])  # drugi od końca
+print(liczby[-3:])  # [6666, 22, 12.34]
+
+liczby.remove(54)
+print(liczby)
+
+print(liczby.pop(2))  # 6666
+print(len(liczby))  # długość 4
+
+print(liczby[0:4:2])  # [999, 22] [start:stop:krok]
+print(liczby[::-1])  # wypisz odwrotnie
+
+tekst = "Python"
+lista1 = list(tekst)  # list() - rzutowanie na liste - rozpakowanie sekwencji
+print(lista1)  # ['P', 'y', 't', 'h', 'o', 'n']
+
+lista2 = [tekst]
+print(lista2)  # ['Python'] dostajemy liste z elementem "Python"
+
+liczba = 123456
+# print(list(liczba))  # TypeError: 'int' object is not iterable
+print([liczba])  # [123456]
+
+krotka = tuple(liczby)  # tuple() - rzutowanie na krotkę (tuplę)
+print(type(krotka))  # <class 'tuple'>
+print(krotka)  # (999, 687, 22, 12.34)
