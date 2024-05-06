@@ -33,3 +33,31 @@ print(int("54") + int(28))  # 82 int() - jawne rzutownie na typ liczbowy
 # print("54" + 28)  # TypeError: can only concatenate str (not "int") to str
 # silne typowanie
 print(str(54) + str(28))  # 5428 - str() - zamiana na string
+
+# zmienna - pudełko na dane
+imie = "Radek"
+print(imie)  # wypisanie zawartości zmmiennej, Radek
+print(type(imie))  # <class 'str'>
+
+wiek = 48
+print(type(wiek))  # <class 'int'>
+print(wiek)
+
+# zmienne typowanie dynamicznie
+wiek = "Radek"
+print(wiek)  # Radek
+print(type(wiek))  # <class 'str'>
+
+# print(wiek + 1)  # TypeError: can only concatenate str (not "int") to str
+
+print(wiek + str(1))  # Radek1
+
+# print(int(wiek) + 1)  # ValueError: invalid literal for int() with base 10: 'Radek'
+print(chr(38))  # & - znak wg kodu ascii
+print(ord("A"))  # kod ascii znaku 65
+
+age: int = 67  # :int - podpowiedź typów
+print(age)
+print(type(age))  # <class 'int'>
+age = "Radek"
+print(age)  # Radek
