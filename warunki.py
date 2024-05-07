@@ -39,3 +39,13 @@ else:
 print(f"Zapłacisz {zarobki * podatek}")
 # dodac podatek 0.2 dla przedziału 10000 do 29999
 # Pamiętać, że kolejnośc warunków elif ma znaczenie
+
+suma_zam = 150
+if suma_zam > 100:
+    rabat = 25
+else:
+    rabat = 0
+print(f"Rabat wynosi {rabat}")  # Rabat wynosi 25
+
+rabacik = 25 if suma_zam > 100 else 0
+print(f"Rabat wynosi {rabacik}")  # Rabat wynosi 25
