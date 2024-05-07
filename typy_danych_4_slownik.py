@@ -40,11 +40,27 @@ print(dictionary['imie'])  # Tomek
 print(dictionary.get('imie'))  # Tomek
 print(dictionary.get('Imie', 'default'))  # default
 
-tekst = input("Wpisz tekst")  # input() - pobiera dane np.: od użytkownika
-print(tekst)  # tekst wpisany przez Radka
+# tekst = input("Wpisz tekst")  # input() - pobiera dane np.: od użytkownika
+# print(tekst)  # tekst wpisany przez Radka
+# ctrl / - komentarz zaznaczonego bloku
 
 # napisac aplikacje słownik polsko - angielski
-# załadować słownik danymi
-# wypisac klucze ze słownika
+# załadować słownik danymi +
+# wypisac klucze ze słownika +
 # pobrac od uzytkownika słowo do przetłumaczenia
 # wypisać ze słownika wartośc dla tego klucza
+
+dict_pol_eng = {'kot': 'cat', 'woda': 'water', 'pies': 'dog', 'zielony': 'green'}
+print(dict_pol_eng.keys())
+odp = input("podaj słowo do przetłumaczenia")
+print(dict_pol_eng[odp.lower().replace(" ", "")])
+print(dict_pol_eng.get(odp.lower().replace(" ", "")))
+
+# napisac kalkulator
+# pobrac dwie liczby
+# wypisac wynik działania np.: dodawania
+
+# input zawsze zwraca str
+a = float(input("Podaj liczbę a"))
+b = input("Podaj liczbę b")
+print(a + int(b))
