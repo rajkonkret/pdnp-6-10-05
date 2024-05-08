@@ -12,7 +12,7 @@ with open(filename, "r") as file:
     csvreader = csv.reader(file, delimiter=dialect.delimiter)
     print(csvreader)  # <_csv.reader object at 0x000001E661EC15A0>
 
-    fields = next(csvreader)  # odczyta bieżacy elemnt i ustawi wskaźnik na następny
+    fields = next(csvreader)  # odczyta bieżacy element i ustawi wskaźnik na następny
     for row in csvreader:
         # print(row)
         rows.append(row)
