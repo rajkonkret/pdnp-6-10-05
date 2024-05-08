@@ -24,7 +24,7 @@ with open('test.log', 'a', encoding='utf-8') as file:
     file.write("Dodane\n")
     file.write("Dodane dwa\n")
     file.write("Dodane trzy\n")
-    file.write("Dośdane trzy\n")
+    file.write("Dośćśńdane trzy\n")
 
 # file.write("TEST")  # ValueError: I/O operation on closed file.
 
