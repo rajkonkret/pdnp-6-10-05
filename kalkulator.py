@@ -15,7 +15,7 @@ while True:
     """)
 
     odp = input("Podaj opcje z menu")
-    if odp == '5':
+    if odp >= '5':
         break
 
     try:
