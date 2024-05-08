@@ -33,3 +33,7 @@ with open('test.log', 'r', encoding='utf-8') as f:
     lines = f.read()
 
 print(lines)
+
+with open('test.log', 'r', encoding='utf-8') as f:
+    for line in f:
+        print(line, end="")
