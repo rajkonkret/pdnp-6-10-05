@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Ruben",
+        "last": "Reed"
+      },
+      "location": {
+        "street": {
+          "number": 231,
+          "name": "Jones Road"
+        },
+        "city": "Tuam",
+        "state": "Kildare",
+        "country": "Ireland",
+        "postcode": 13042,
+        "coordinates": {
+          "latitude": "-1.7253",
+          "longitude": "-38.0049"
+        },
+        "timezone": {
+          "offset": "-3:00",
+          "description": "Brazil, Buenos Aires, Georgetown"
+        }
+      },
+      "email": "ruben.reed@example.com",
+      "login": {
+        "uuid": "dc505e60-4303-4e4e-8f46-a4166d65a529",
+        "username": "browngorilla671",
+        "password": "yankees2",
+        "salt": "snbm6p6d",
+        "md5": "3300e21083ba399cf9ab6c88836dab14",
+        "sha1": "ea7d636eb9ea942038da327657e88cb9a22ef3bb",
+        "sha256": "8e78c52df97c9a609886c2422bace33c3b5efe4586ee6dddf59fd754d97a3ff6"
+      },
+      "dob": {
+        "date": "1961-04-16T06:04:42.485Z",
+        "age": 63
+      },
+      "registered": {
+        "date": "2003-08-15T01:41:16.296Z",
+        "age": 20
+      },
+      "phone": "031-833-6316",
+      "cell": "081-593-3928",
+      "id": {
+        "name": "PPS",
+        "value": "8694108T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/40.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/40.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/40.jpg"
+      },
+      "nat": "IE"
+    }
+  ],
+  "info": {
+    "seed": "09f5d9a4bc7c4bbf",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
