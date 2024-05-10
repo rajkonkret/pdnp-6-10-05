@@ -1,5 +1,7 @@
 import openpyxl
 
+# pip install openpyxl
+
 # działanie na plikach typu excel
 workbook = openpyxl.load_workbook('sales.xlsx')
 worksheet = workbook.active
